@@ -30,7 +30,7 @@ public class SurfaceTest {
 		final ArrayList<String> lstLignefile = new ArrayList<>();
 		lstLignefile.add("test");
 		surface.setLigneFile(lstLignefile);
-		Assert.assertEquals(surface.getLstTondeuses().get(0), "test");
+		Assert.assertEquals(surface.getLigneFile().get(0), "test");
 	}
 
 	@Test

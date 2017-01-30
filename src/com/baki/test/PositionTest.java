@@ -66,7 +66,7 @@ public class PositionTest {
 		{
 			final Coordonnees coordDepart = new Coordonnees();
 			coordDepart.setMyOrientation(OrientationEnum.N);
-			pos.setCoordLimit(coordDepart);
+			pos.setCoordDepart(coordDepart);
 			Assert.assertEquals(pos.getCoordDepart().getMyOrientation(), OrientationEnum.N);
 		}
 	}
