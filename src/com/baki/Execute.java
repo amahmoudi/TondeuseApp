@@ -8,12 +8,12 @@ public class Execute {
 
 		Surface surface = new Surface();
 
-		surface.init(System.getProperty("user.dir") + "/teste.txt");
+		surface.init(System.getProperty("user.dir") + "/test.txt");
 
 		List<Tondeuse> lstTondeuses = surface.getLstTondeuses();
 		for (int i = 0; i < lstTondeuses.size(); i++) {
 
-			System.out.println("Tondeuse n° " + i);
+			System.out.println("Tondeuse nÂ° " + (i+1));
 
 			Tondeuse tondeuse = lstTondeuses.get(i);
 			Position positionActuel = tondeuse.getPositionActuel();
