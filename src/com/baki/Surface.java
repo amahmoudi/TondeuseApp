@@ -7,14 +7,14 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.sun.xml.internal.bind.v2.model.util.ArrayInfoUtil;
+import com.baki.gui.Fenetre;
 
 /**
  * 
  * @author Dell
  *
  */
-public class Surface {
+public class Surface  extends Fenetre{
 
 	private List<Tondeuse> lstTondeuses;
 	private List<String> ligneFile;
